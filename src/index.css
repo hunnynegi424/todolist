@@ -1,0 +1,123 @@
+.ui {
+  height: 98vh;
+  overflow: scroll;
+  background-image: url('./background.jpg');
+  background-size: contain;
+  background: cover;
+  background-position: top;
+}
+
+.header {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(142, 142, 233);
+}
+
+.ui_text {
+  text-align: center;
+}
+
+.textInput {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 19px;
+  justify-content: center;
+  height: 10vh;
+  width: 50vw;
+  border-radius: 15px;
+  border: 1px solid rgb(142, 142, 233);
+  box-shadow: 0 0 4px grey;
+}
+
+.tab-navigate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  width: 10vw;
+  height: 5vh;
+  margin: 20px;
+  border: 1px solid grey;
+  color: white;
+  background-color: rgb(0, 128, 200, 0.7);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: rgb(0, 128, 200, 0.9);
+}
+
+
+
+.listedTask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(128, 128, 128, 0.7);
+  color: white;
+  box-shadow: 0 0 4px grey;
+  font-size: 30px;
+  margin-top: 0px;
+  height: 10vh;
+  width: 53vw;
+  border-radius: 15px;
+}
+
+.task-block {
+  width: 70vw;
+  margin-left: 410px;
+}
+
+.gridTasks {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  background-color: rgb(128, 128, 128, 0.7);
+  color: white;
+  box-shadow: 0 0 4px grey;
+  font-size: 30px;
+  margin-top: 0px;
+  margin: 20px;
+  height: 18vh;
+  width: 15vw;
+  border-radius: 15px;
+}
+
+.listedTask:hover {
+  background-color: rgba(100, 87, 218, 0.9);
+}
+
+.gridTasks:hover {
+  background-color: rgba(100, 87, 218, 0.9);
+}
+
+.view-bar {
+  margin:20px;
+}
+
+.view {
+  margin: 5px;
+  float: right;
+  width: 70px;
+  height: 40px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: rgba(253, 253, 253, 0.1);
+  color: white;
+}
+
+.view:hover {
+  background-color: rgba(253, 253, 253, 0.6);
+}
+
+.view.active {
+  background-color: rgba(253, 253, 253, 0.6);
+}
