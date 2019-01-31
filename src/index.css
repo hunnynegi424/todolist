@@ -91,11 +91,7 @@
   border-radius: 15px;
 }
 
-.listedTask:hover {
-  background-color: rgba(100, 87, 218, 0.9);
-}
-
-.gridTasks:hover {
+.listedTask:hover, .gridTasks:hover {
   background-color: rgba(100, 87, 218, 0.9);
 }
 
